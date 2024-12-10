@@ -67,9 +67,7 @@ app.post('/Login', (req, res) => {
 });
 
 app.get('/account', (req, res) => {
-  const employeeId = 'E0001'; // Example employee ID, replace with dynamic input if needed
-  
-  // Use parameterized queries to avoid SQL injection
+  const employeeId = 'E0001'; 
   const sql = `
     SELECT EMPLOYEES.EMPLOYEE_FNAME,EMPLOYEES.EMPLOYEE_LNAME,EMPLOYEES.EMPLOYEE_TELEPHONE,EMPLOYEES.BRANCH_ID,POSITIONS.POSITION_NAME
     FROM EMPLOYEES
@@ -77,7 +75,6 @@ app.get('/account', (req, res) => {
     WHERE EMPLOYEES.EMPLOYEE_ID = ?;
   `;
 
-  // Use parameterized query to safely insert the employee ID
   db.query(sql, [employeeId], (err, result) => {
     if (err) {
       return res.json({ Message: 'Error inside server', error: err });

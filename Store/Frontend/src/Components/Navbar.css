@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+    border-bottom: 2px solid #444;
+    background: #121212;
+  }
+  
+  .navbar .logo {
+    font-weight: 600;
+    font-size: 40px;
+    color: #e0e0e0;
+  }
+  
+  .navbar-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .navbar-section i {
+    font-size: 40px;
+    color: #e0e0e0;
+  }
+  
+  .navbar-section span {
+    font-size: 20px;
+    color: #e0e0e0;
+  }
+  

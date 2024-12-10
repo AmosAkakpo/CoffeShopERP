@@ -1,0 +1,48 @@
+.account-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  width: 400px;
+  margin: auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #1e1e1e;
+  padding: 20px;
+  transition: transform 0.2s ease-in-out;
+  color: #e0e0e0;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.profile-icon {
+  font-size: 50px;
+  color: #48bb78;
+  margin-top: 10px;
+}
+
+.card h2 {
+  margin: 10px 0;
+  font-size: 24px;
+  color: #48bb78;
+}
+
+.employee-title {
+  color: #999;
+  font-size: 16px;
+}
+
+.card p {
+  font-size: 16px;
+  color: #cccccc;
+  margin: 8px 0;
+}

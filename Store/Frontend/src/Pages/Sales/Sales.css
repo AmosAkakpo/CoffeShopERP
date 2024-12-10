@@ -1,0 +1,142 @@
+.sales-wrapper {
+  padding: 40px 30px;
+  overflow-y: auto;
+}
+
+.add-item {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.sales-wrapper h2 {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.btn {
+  width: 80px;
+  height: 45px;
+  background: #444;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  font-size: 16px;
+  color: #e0e0e0;
+  font-weight: 600;
+  margin-top: 10px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+  background: #e0e0e0;
+  color: #444;
+}
+
+.input-box-sales {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.input-box-sales input {
+  height: 40px;
+  width: 150px;
+  margin: 2px;
+  background: #333;
+  border: none;
+  color: #e0e0e0;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.input-box-sales select {
+  height: 40px;
+  width: 150px;
+  margin: 2px;
+  background: #333;
+  border: none;
+  color: #e0e0e0;
+  padding: 5px;
+  border-radius: 5px;
+  appearance: none;
+}
+
+.input-box-sales select:focus {
+  outline: none;
+  border: 1px solid #555;
+}
+
+.sale-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 800px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  height: 100%;
+}
+
+.sale-table thead tr {
+  background-color: #333;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.sale-table th,
+.sale-table td {
+  padding: 12px 15px;
+}
+
+.sale-table tbody tr {
+  border-bottom: 1px solid #444;
+}
+
+.sale-table tbody tr:nth-of-type(even) {
+  background-color: #2a2a2a;
+}
+
+.sale-table tbody tr:last-of-type {
+  border-bottom: 2px solid #333;
+}
+
+.sale-payment {
+  margin-top: 10px;
+}
+
+.sale-payment input {
+  border: none;
+  background: #333;
+  color: #e0e0e0;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.sale-payment select {
+  height: 30px;
+  background: #333;
+  border: none;
+  color: #e0e0e0;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.sale-payment select:focus {
+  outline: none;
+  border: 1px solid #555;
+}
+
+.sale-pay-button {
+  color: white;
+  background: #1760c2;
+  width: 80px;
+  height: 30px;
+  border-radius: 9px;
+  padding: 3px 4px;
+}

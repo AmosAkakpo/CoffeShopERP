@@ -1,0 +1,51 @@
+.page-content {
+  margin: 15px 50px;
+  height: 500px;
+  overflow-y: auto;
+  background-color: #121212;
+  color: #e0e0e0;
+  width: 100%;
+}
+
+.page-title {
+  letter-spacing: 1px;
+  color: #48bb78;
+  font-weight: bolder;
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 800px;
+  border-radius: 15px 15px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  height: 100%;
+  background-color: #1e1e1e;
+}
+
+.content-table thead tr {
+  background-color: #48bb78;
+  color: #1e1e1e;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+  color: #e0e0e0;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #333;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #2d2d2d;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #48bb78;
+}

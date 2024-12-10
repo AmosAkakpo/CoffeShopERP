@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html, body {
+  height: 100%;
+  margin: 0; 
+  padding: 0;
+  background: #121212; /* Dark background */
+  color: #e0e0e0; /* Light text for readability */
+}
+
+.application {
+  display: flex;
+  flex-direction: row;
+  height: 75vh;
+}
